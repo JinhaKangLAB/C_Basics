@@ -112,3 +112,47 @@
 	return 0;
 } */
 
+/*int main(void){
+	int i;
+	int v[5];
+
+	for(i=0;i<5;i++)
+	{
+		v[i]=i;
+	}
+	for(i=0; i<5;i++)
+	{
+		printf("v[%d]= %d\n", i, v[i]);
+	}
+	return 0;
+} */
+
+//Array sum
+/*int main(void){
+	int v[5]={0,1,2,3,4};
+	int i,sum=0;
+
+	for(i=0;i<5;i++){
+		printf("v[%d] = %d \n", i, v[i]);
+		sum += v[i];
+	}
+
+	printf("Total : %d \n", sum);
+	return 0;
+} */
+
+//Average
+/* int main(void){
+	int v[5]={0,1,2,3,4};
+	int i,sum=0;
+	double avg;
+
+	for(i=0;i<5;i++){
+		printf("v[%d] = %d \n", i, v[i]);
+		sum += v[i];
+	}
+	avg = sum / 5;
+	printf("Total : %d \n", sum);
+	printf("Average : %.2f \n", avg); //0.00 %.2f , 0.000 %.3f
+	return 0;
+} */

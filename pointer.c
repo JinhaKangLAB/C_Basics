@@ -19,7 +19,7 @@
 	printf("%d", *pnum);
 } */
 
-int main(void){
+/* int main(void){
 
 	int num1=100, num2=100;
 	int * pnum;
@@ -31,5 +31,17 @@ int main(void){
 	(*pnum)-=30;
 
 	printf("num1%d, num2:%d \n", num1, num2);
+	return 0;
+} */
+
+int main(void){
+	float f=10.3;
+	float *p;
+
+	printf(" Before : %.1f\n", f);
+	p = &f;		
+	*p=30.5;
+	printf(" After : %.1f\n", f);						
+
 	return 0;
 }

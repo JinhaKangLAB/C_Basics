@@ -1,0 +1,59 @@
+#include <stdio.h>
+/*int main (void) {
+	int arr[3]={15, 25, 35};
+	int * ptr=&arr[0];
+	printf("%d %d \n", ptr[0], arr[0]);
+	printf("%d %d \n", ptr[1], arr[1]);
+	printf("%d %d \n", ptr[2], arr[2]);
+	printf("%d %d \n", *ptr, *arr);
+	return 0;
+}*/
+
+/*int main (void){
+	int arr[3]={11, 22, 33};
+	int * ptr=arr;
+	printf("%d %d %d \n", *ptr, *(ptr+1), *(ptr+2));
+
+	printf("%d ", *ptr); ptr++;
+	printf("%d ", *ptr); ptr++;
+	printf("%d ", *ptr); ptr--;
+	printf("%d ", *ptr); ptr--;
+	printf("%d ", *ptr); printf("\n");
+	return 0;
+} */
+
+/*int main(void){
+	int arr[3] = {11, 22, 33};
+	int *ptr = arr;
+	printf("%d %d %d \n", *(ptr+0), *(ptr+1), *(ptr+2));
+	printf("%d %d %d \n", ptr[0], ptr[1],ptr[2]);
+	printf("%d %d %d \n", arr[0], arr[1],arr[2]);
+	printf("%d %d %d \n", *arr[0], *arr[1],*arr[2]);
+return 0;
+} */
+
+
+/*int main (void){
+	char str1[ ]="My String";
+	char *str2="Your String";
+	printf("%s %s \n", str1, str2);
+
+	str2="Our String";
+	printf("%s %s \n", str1, str2);
+
+	str1[0]='X';
+	//str2[0]='X'; // will be failed
+	printf("%s %s \n", str1, str2);
+	return 0;
+} */
+
+
+/*int main(void){
+	int num1=10, num2=20, num3=30;
+	int* arr[3]={&num1, &num2, &num3};
+	
+	printf("%d \n", *arr[0]);
+	printf("%d \n", *arr[1]);
+	printf("%d \n", *arr[2]);
+	return 0;
+} */
